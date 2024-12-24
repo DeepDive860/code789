@@ -66,6 +66,7 @@ class AmazonSpider(scrapy.Spider):
         )
 
     def parse(self, response):
+        print("HEHE")
         pass
 
     async def parse_1(self, response):
